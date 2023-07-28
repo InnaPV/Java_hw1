@@ -2,39 +2,39 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        // Примитивные типы
-        char charVar = 'G';
-        int intVar = 89;
-        byte byteVar = 4;
-        short shortVar = 56;
-        float floatVar = 4.7333436f;
-        double doubleVar = 4.355453532;
-        long longVar = 12121;
 
-        // Не примитивные типы (обертки)
-        Character characterVar = 'G';
-        Integer integerVar = 89;
-        Byte byteObj = 4;
-        Short shortObj = 56;
-        Float floatObj = 4.7333436f;
-        Double doubleObj = 4.355453532;
-        Long longObj = 12121L;
+        char myChar = 'G';
+        int myInt = 89;
+        byte myByte = 4;
+        short myShort = 56;
+        float myFloat = 4.7333436f;
+        double myDouble = 4.355453532;
+        long myLong = 12121;
+        
+        
+        Character myCharacter = 'G';
+        Integer myInteger = 89;
+        Byte myByte_ = 4;
+        Short myShort_ = 56;
+        Float myFloat_ = 4.7333436f;
+        Double myDouble_ = 4.355453532;
+        Long myLong_ = 12121L;
 
-        // Вывод в консоль
-        System.out.println("char: " + charVar);
-        System.out.println("int: " + intVar);
-        System.out.println("byte: " + byteVar);
-        System.out.println("short: " + shortVar);
-        System.out.println("float: " + floatVar);
-        System.out.println("double: " + doubleVar);
-        System.out.println("long: " + longVar);
 
-        System.out.println("Character: " + characterVar);
-        System.out.println("Integer: " + integerVar);
-        System.out.println("Byte: " + byteObj);
-        System.out.println("Short: " + shortObj);
-        System.out.println("Float: " + floatObj);
-        System.out.println("Double: " + doubleObj);
-        System.out.println("Long: " + longObj);
+        System.out.println("char: " + myChar);
+        System.out.println("int: " + myInt);
+        System.out.println("byte: " + myByte);
+        System.out.println("short: " + myShort);
+        System.out.println("float: " + myFloat);
+        System.out.println("double: " + myDouble);
+        System.out.println("long: " + myLong);
+
+        System.out.println("Character: " + myCharacter);
+        System.out.println("Integer: " + myInteger);
+        System.out.println("Byte: " + myByte_);
+        System.out.println("Short: " + myShort_);
+        System.out.println("Float: " + myFloat_);
+        System.out.println("Double: " + myDouble_);
+        System.out.println("Long: " + myLong_);
     }
 }
