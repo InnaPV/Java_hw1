@@ -2,16 +2,14 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        int number = 345;
-        String numberStr = Integer.toString(number);
+        int value = 345;
 
-        // Виводимо цифри на екран
-        System.out.print("Число " + number + " -> ");
-        for (int i = 0; i < numberStr.length(); i++) {
-            System.out.print(numberStr.charAt(i));
-            if (i < numberStr.length() - 1) {
-                System.out.print(", ");
-            }
-        }
-    }
+
+        int a1 = value / 100;
+        int a2 = (value % 100) / 10;
+        int a3 = value % 10;
+
+
+        System.out.println("Число " + value + " -> " + a1 + ", " + a2 + ", " + a3);
+                   }
 }
